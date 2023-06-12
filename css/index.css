@@ -18,7 +18,7 @@
 
 nav {
     background-color: #333;
-    padding: 20px;
+    padding:0px;
     
   }
   
@@ -75,13 +75,38 @@ nav {
     background-color: #333;
     padding: 1px;
     display:flex;
-    align-items: left;
-    
+    align-items: left;    
   }
   
    img {
     width: 100px;
     height: 100px;
-    margin-left:900px;
-       
+    margin-left:930px;
+    padding-top: 0px;
+  }
+  .vertical-bar {
+    background-color: #f1f1f1;
+    width: 650px;
+    padding-left:1200px;
+    width: 100px;
+    
+  }
+  
+  .vertical-bar {
+    display: none;
+    color: #8132ff;
+    text-decoration: none;
+    padding: 5px ;
+    left: 1203px;
+    top:16%;
+    position: fixed;
+  }
+  .item{
+    width: 100px;
+    height: 100px;
+    margin-left:0px;
+    padding-top: 0px;
+  }
+  .item:hover .vertical-bar{
+    display: block;
   }
