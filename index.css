@@ -14,8 +14,8 @@ ul{
     list-style: none;
 }
 .icon {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 2.2rem;
+    height: 2.2rem;
 }
 .flex__group{
     display: flex;
@@ -43,6 +43,7 @@ ul{
 }
 .silebar__title{
     margin-bottom: 3rem;
+    font-size: 3rem;
     color:#31334b;
 }
 .silebar_items{
@@ -52,7 +53,6 @@ ul{
 }
 .silebar__item{
     display: flex;
-    font-size: 1.2rem;
     align-items: center;
     justify-content: flex-start;
     color:#31334b;
@@ -61,12 +61,8 @@ ul{
     gap: 1rem;
     cursor: pointer;
 }
-.silebar__item svg {
-    width: 1.8rem;
-    height: 1.8rem;
-}
 .silebar__item p {
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 .silebar__item-active{
@@ -87,22 +83,22 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: .8rem;
+    gap: 1.3rem;
 }
 .silebar__infomation h4{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 
 }
 .silebar__infomation p{
     text-align: center;
-    font-size: .7rem;
+    font-size: 1.2rem;
     
 }
 .silebar__infomation button{
     background: white;
     border: none;
-    font-size: .8rem;
-    padding: .5rem 1rem;
+    font-size: 1.3rem;
+    padding: 1rem 1.8rem;
     border-radius: .5rem;
 }
 /* ------------------------------------- */
@@ -121,8 +117,7 @@ ul{
 .nav__buscador{
     display: flex;
     background: #f9fafc;
-    width: 30%;
-    font-size: 1rem;
+    width: 45%;
     padding: .8rem;
     border-radius: .5rem;
     color: #31334b;
@@ -130,20 +125,20 @@ ul{
     gap: 1rem;
 }
 .nav__buscador svg{
-    width: 13px;
-    height: 13px;
+    width: 18px;
+    height: 18px;
     stroke: #5d5ff4;
 }
 .nav__buscador input{
     font-weight: 500;
     color: #31334b;
-    font-size: 1rem;
+    font-size: 1.4rem;
     outline: 0;
     border: none;
     background: none;
 }
 .nav__idioma{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     align-items: center;
     font-weight: 600;
     display: flex;
@@ -191,11 +186,11 @@ ul{
     border-radius: 1rem;
 }
 .nav__user h4{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: .3rem;
 }
 .nav__user p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 /* ------------------------------------- */
 /* Contenido */
