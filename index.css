@@ -12,17 +12,41 @@
     "a c"
     ;
     grid-template-columns: 20vw 1fr; 
-    grid-template-rows: 80px 1fr;
+    grid-template-rows: 60px 1fr;
     background: red;
 }
 .items{
     grid-area: a;
     background: blue;
 }
+/* navegacion  */
 .nav{
     grid-area: b;
-    background: blueviolet;
 }
+nav {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  #menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  #menu li {
+    margin-right: 10px;
+  }
+  
+  #menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #menu li a:hover {
+    color: #521919;
+  }
 .content{
     grid-area: c;
     background: orange;
