@@ -299,3 +299,9 @@ ul{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  
+    .silebar__item:hover  {
+        background-color: orange;
+      }
+  }
+  
