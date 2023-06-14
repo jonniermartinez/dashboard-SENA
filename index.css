@@ -179,6 +179,7 @@ ul{
     display: flex;
     align-items: center;
     gap: 1rem;
+    
 }
 .nav__user img {
     width: 3.5rem;
@@ -210,6 +211,7 @@ ul{
     padding: 1.5rem;
     border-radius: .8rem;
     color: #31334b;
+    
 }
 .content-section{
     padding: 1.5rem;
@@ -229,7 +231,7 @@ ul{
 }
 .conten__b{
     grid-area: b;
-    background-color: blue;
+    background-color: rgb(204, 204, 223);
 }
 .conten__c{
     grid-area: c;
@@ -255,3 +257,45 @@ ul{
     grid-area: h;
     background-color: rgb(0, 102, 255);
 }
+/* Estilos de la barra desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0px ;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+    text-align: right;
+  }
+  
+  .dropdown-content {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
